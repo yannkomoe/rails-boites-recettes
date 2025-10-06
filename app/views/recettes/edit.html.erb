@@ -1,0 +1,12 @@
+<% content_for :title, "Editing recette" %>
+
+<h1>Editing recette</h1>
+
+<%= render "form", recette: @recette %>
+
+<br>
+
+<div>
+  <%= link_to "Show this recette", @recette %> |
+  <%= link_to "Back to recettes", recettes_path %>
+</div>
